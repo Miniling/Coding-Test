@@ -1,4 +1,4 @@
-# Coding-Test
+# CodingTest
 
 <h2>ToDo.</h2>
 📝 매일 최소 한 문제씩 풀기 !
