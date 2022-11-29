@@ -14,4 +14,5 @@
 1. 징검다리: 예외처리는 맨 마지막에 고려. 문제 분석 및 기능 계획 후 작성!!! <br>
 2. 약자: ''.join(s for s in 리스트) => 배열을 문자열로 변환 ('문자'.join : 요소 사이에 '문자' 추가)  <br>
 3. 이중 큐: [v, ...].sort() / [v, ...].sort(reverse=True) => 오름 / 내림차순 정렬, <br>
-            [('key', value), ...].sort(key = lambda e: e[1]) / [('key', value), ...].sort(key = lambda e: e[1], reverse=True) => value기준 오름 / 내림차순 정렬
+            [('key', value), ...].sort(key = lambda e: e[1]) => value기준 오름차순 정렬  <br>
+            [('key', value), ...].sort(key = lambda e: (e[0], -e[1])) => 'key' 오름차순, value 내림차순 정렬  <br>
