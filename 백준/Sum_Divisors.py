@@ -1,0 +1,19 @@
+# f(A) = A의 모든 약수를 더한 값
+# x보다 작거나 같은 자연수 y의 f(y)를 더한 값은 g(x)
+# ex) x=3, g(3) = f(1)+f(2)+f(3) = 1+(1+2)+(1+3) = 8
+
+# 테스트 케이스 개수 T
+T = int(input())
+
+for _ in range(T):
+    N = int(input())
+    gn = 0
+    # 1부터 N까지
+    for i in range(1, N+1):
+        # i의 모든 약수 합
+        fn = 0
+        for j in range(1, i+1):
+            if(i%j == 0):
+                fn += j
+        gn += fn
+    print(gn)
