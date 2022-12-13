@@ -42,10 +42,6 @@ def check(map):
 
     return max(max_c, max_r)
 
-def Print(map):
-    for i in range(N):
-        print(map[i])
-
 # 인접한 두 칸을 골라 교환
 max_candy = 0
 for i in range(N):
