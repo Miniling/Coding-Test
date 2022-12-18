@@ -12,6 +12,7 @@
 5. 소수 찾기: 에라토스테네스의 체. N까지의 값이 저장된 배열에서 소수의 배수를 전부 지우는 방식 => 시간 복잡도 < 루트N   <br>
 6. 일곱 난쟁이: # 순열 함수 라이브러리(import itertools). combination(iterable, r): iterable에서 원소 개수가 r개인 모든 조합   <br>
 7. 사탕 게임: 오른쪽+아래만 검산해도 4방향을 모두 확인할 수 있다!   <br>
+8. 로또: 6번 일곱 난쟁이와 동일. N개 중 a개를 고르는 모든 경우의 수를 출력하는 for tuple in itertools.combination(list, count)   <br>
 <br><br>
 <a>[[ 소프티어 ]]</a> <br>
 1. 징검다리: 예외처리는 맨 마지막에 고려. 문제 분석 및 기능 계획 후 작성!!! <br>
