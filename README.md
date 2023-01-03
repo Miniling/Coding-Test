@@ -20,3 +20,7 @@
 3. 이중 큐: [v, ...].sort() / [v, ...].sort(reverse=True) => 오름 / 내림차순 정렬, <br>
             [('key', value), ...].sort(key = lambda e: e[1]) => value기준 오름차순 정렬  <br>
             [('key', value), ...].sort(key = lambda e: (e[0], -e[1])) => 'key' 오름차순, value 내림차순 정렬  <br>
+<br>
+
+<h3>※잊지말고 기억해서 또 실수하지 않기!!!</h3>
+list.sort(key=lambda e: (e[0], -e[2])) => 리스트 (0번째 요소 오름차순 -> 2번째 요소 내림차순) 정렬
