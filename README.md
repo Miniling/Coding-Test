@@ -23,4 +23,5 @@
 <br>
 
 <h3>※잊지말고 기억해서 또 실수하지 않기!!!</h3>
-list.sort(key=lambda e: (e[0], -e[2])) => 리스트 (0번째 요소 오름차순 -> 2번째 요소 내림차순) 정렬
+list.sort(key=lambda e: (e[0], -e[2])) => 리스트 (0번째 요소 오름차순 -> 2번째 요소 내림차순) 정렬  <br>
+import sys, input=sys.stdin.readline  => input() 내장함수 대신 줄 단위 읽기로 input 변환하여 사용.(시간 단축)  <br>
