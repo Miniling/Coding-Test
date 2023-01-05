@@ -4,13 +4,10 @@ import sys
 
 input = sys.stdin.readline
 
-work_h, work_m = 0, 0
+working = 0
 # 5일 출근 => 5회 반복
 for _ in range(5):
     start, end = map(str, input().split())
-    start_h, start_m = map(int, start.split(':'))
-    end_h, end_m = map(int, end.split(':'))
-    work_h += (end_h-start_h)
-    work_m += (end_m-start_m)
+    working += (int(end[:2])-int(start[:2]))*60 + int(end[3:])-int(start[3:])
 
-print(work_h*60+work_m)
+print(working)
