@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-
 int main(void)
 {
 	int DCT[8];
 	int sort = 0;
 
+	// 배열의 각 자리에 한 글자씩 저장
 	for(int i=0; i<8; i++) {
 		scanf("%d", &DCT[i]);
 	}
