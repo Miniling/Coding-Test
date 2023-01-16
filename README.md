@@ -6,6 +6,21 @@
 
 <p style="font-weight: bold"><학습노트 ✏></p>
 
+<h4>Python</h4>
+import sys  <br>
+input = sys.stdin.readline  <br>
+배열 = list(map(int, input().split()))  <br>
+0초기화 = [0]*길이  <br>
+배열.sort(key=lambda e: (e[0], -e[1]))  => 0요소 오름차순 -> 1요소 내림차순 정렬  <br>
+
+<h4>JS</h4>
+var fs = require('fs');  <br>
+var input = fs.readFileSync(0).toString().trim().split();  <br>
+var 0초기화 = Array.from({length: 길이}, () => 0);  <br>
+배열.sort((a, b) => a."요소0" - b."요소0" || b."요소1" - a."요소1");  => 0요소 오름차순 -> 1요소 내림차순 정렬  <br>
+
+<h4>C++</h4>
+
 <a>[[ 백준 ]]</a> <br>
 1. 자동차 번호판: Python  ord('문자') => 문자의 ASCII값 반환  <br>
 2. 반반치킨: 문제의 '요구사항' 확인!!!   <br>
