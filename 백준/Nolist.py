@@ -10,5 +10,6 @@ for i in range(m):
 
 nolist = sorted(list(hear&see))
 print(len(nolist))
+
 for name in nolist:
     print(name)
